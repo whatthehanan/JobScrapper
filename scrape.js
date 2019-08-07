@@ -15,7 +15,7 @@ request('https://news.ycombinator.com/jobs', (error, response, html) => {
             .text()
             .trim()
             .toLowerCase()
-            .replace(/(is\s)?(hir(ing|es)|looking)+/, '&&&')
+            .replace(/(is\s)?(hir(ing|es)|looking)/, '&&&')
             .split('&&&');
 
         console.log("Company Name:", string[0].trim())
