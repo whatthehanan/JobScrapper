@@ -22,6 +22,7 @@ request('https://news.ycombinator.com/jobs', (error, response, html) => {
         // use regex to separate company name and rest of string
         //  match for characters that come after a company name
         // e.g is hiring/hires/hiring/is looking/wants/raises/raised
+        // match() funnctions returns 0 index if no match found
         let index = string.match(/(is\s)?(hir(ing|es)|looking|wants|(raise(d|s)))/i).index;
         let companyName = string.substring(0, index);
 
