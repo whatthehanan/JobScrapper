@@ -14,18 +14,12 @@
 
 ## How to Deploy Code?
     Please make sure you have node and npm installed by running the following commands:
-    
-    ```
-    node --verison
-    npm --version
-    ```
+        node --verison
+        npm --version
     
     in a terminal run the following commands:
-    
-    ```
-    npm install
-    node scrape.js
-    ```
+        npm install
+        node scrape.js
 
 ## Improvements:
     - Regex expressions could have more accurate
