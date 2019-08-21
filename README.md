@@ -22,6 +22,6 @@
         node scrape.js
 
 ## Improvements:
-    - Regex expressions could have more accurate
+    - Regex expressions could have been more accurate
     - Try to use NLP techniques
 
