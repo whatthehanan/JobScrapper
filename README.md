@@ -1,4 +1,4 @@
-# *JobScrapper*
+# JobScrapper
 
 ## Features
    - Extracts Company Name, Job Title and Postion from data scraped from: https://news.ycombinator.com/jobs
