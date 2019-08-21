@@ -18,7 +18,9 @@
     node --verison
     npm --version
     ```
+    
     in a terminal run the following commands:
+    
     ```
     npm install
     node scrape.js
