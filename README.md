@@ -13,7 +13,7 @@
     from what i read python and node.js have almost same performance while scraping and i had worked with cheerio (npm package) before so i went ahead with node.js
 
 ## How to Deploy Code?
-    Please make sure you have node and npm installed by running the following commands:
+    -Please make sure you have node and npm installed by running the following commands:
         node --verison
         npm --version
     
